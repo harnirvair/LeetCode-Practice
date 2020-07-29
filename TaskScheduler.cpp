@@ -10,7 +10,7 @@ public:
             A[tasks[i]-'A']++;
         }
         int maxi=INT_MIN;
-        char maxc;
+        int maxc;
         for(int i=0;i<26;i++){
             if(A[i]>maxi){
                 maxi = A[i];
